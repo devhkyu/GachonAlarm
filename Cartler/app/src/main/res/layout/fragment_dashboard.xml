@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:background="#DDDDDD"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/title_controller"
+    <Button
+        android:id="@+id/btnConnect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Control Test"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_alignTop="@+id/joystickView"
+        android:layout_alignTop="@+id/btnSend"
+        android:layout_marginTop="-51dp"
         android:layout_centerHorizontal="true"
-        />
-    <com.zerokol.views.joystickView.JoystickView
-        android:id="@+id/joystickView"
-        android:layout_width="300sp"
-        android:layout_height="300sp"
-        android:layout_centerInParent="true"/>
+        android:text="연결" />
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="보내기"
+        android:layout_centerInParent="true" />
 
 </RelativeLayout>
