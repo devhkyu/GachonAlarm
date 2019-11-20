@@ -21,7 +21,7 @@ public class ResultActivity extends AppCompatActivity {
         force.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ResultActivity.this, ControlActivity.class);
+                Intent intent = new Intent(ResultActivity.this, DeviceScanActivity.class);
                 startActivity(intent);
             }
         });
