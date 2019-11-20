@@ -21,5 +21,31 @@
         android:layout_width="300sp"
         android:layout_height="300sp"
         android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/directionTextView"
+        android:text="@string/direction_lab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginBottom="20sp"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/powerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/directionTextView"
+        android:layout_marginTop="-23dp"
+        android:layout_marginLeft="10sp"
+        android:text="@string/power_lab" />
+
+    <TextView
+        android:id="@+id/angleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/powerTextView"
+        android:layout_marginTop="-22dp"
+        android:layout_marginLeft="10sp"
+        android:text="@string/angle_lab" />
 
 </RelativeLayout>
