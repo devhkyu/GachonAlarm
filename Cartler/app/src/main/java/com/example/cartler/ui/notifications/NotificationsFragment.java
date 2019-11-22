@@ -54,7 +54,6 @@ public class NotificationsFragment extends Fragment {
         nextNotifyTime.setTimeInMillis(millis);
         Date nextDate = nextNotifyTime.getTime();
         String date_text = new SimpleDateFormat("yyyy년 MM월 dd일 EE요일 a hh시 mm분", Locale.getDefault()).format(nextDate);
-        // Toast.makeText(context, "[처음 실행시] 다음 알람은" + date_text + "으로 알람이 설정되었습니다!", Toast.LENGTH_SHORT).show();
 
         Date currentTIme = nextNotifyTime.getTime();
         SimpleDateFormat HourFormat = new SimpleDateFormat("kk", Locale.getDefault());

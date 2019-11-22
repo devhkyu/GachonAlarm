@@ -14,14 +14,14 @@
         android:layout_margin="20sp"
         android:background="@drawable/round_corner">
         <TextView
-            android:id="@+id/txt1"
+            android:id="@+id/title_alarm"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
             android:textStyle="bold"
             android:text="Alarm"/>
         <TextView
-            android:id="@+id/txt2"
+            android:id="@+id/title_alarm_time"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="time"/>
