@@ -2,7 +2,16 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/coral"
     android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/result_img"
+        android:layout_width="289dp"
+        android:layout_height="193dp"
+        android:layout_alignTop="@+id/result_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-229dp" />
 
     <TextView
         android:id="@+id/result_title"
@@ -11,9 +20,9 @@
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:text="Wake up"
+        android:textColor="@color/white"
         android:textSize="50sp"
-        android:textStyle="bold"
-        android:textColor="#FF0000"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/force_btn"
@@ -22,7 +31,9 @@
         android:layout_alignBottom="@id/result_title"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-61dp"
-        android:text="start to control" />
+        android:background="@drawable/round_corner"
+        android:textSize="16sp"
+        android:text="start" />
 
     <Button
         android:id="@+id/force_stop"
@@ -30,8 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/force_btn"
         android:layout_centerHorizontal="true"
+        android:background="@drawable/round_corner"
         android:layout_marginBottom="-55dp"
-        android:text="Force to stop" />
+        android:text="No Alarm" />
 
     <Button
         android:id="@+id/force_start"
@@ -40,6 +52,8 @@
         android:layout_alignBottom="@+id/force_stop"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-55dp"
-        android:text="Force to start" />
+        android:background="@drawable/round_corner"
+        android:textSize="16sp"
+        android:text="Alarm" />
 
 </RelativeLayout>
