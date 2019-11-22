@@ -22,6 +22,24 @@
         android:layout_alignBottom="@id/result_title"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="-61dp"
-        android:text="Force to result" />
+        android:text="start to control" />
+
+    <Button
+        android:id="@+id/force_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/force_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-55dp"
+        android:text="Force to stop" />
+
+    <Button
+        android:id="@+id/force_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/force_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-55dp"
+        android:text="Force to start" />
 
 </RelativeLayout>

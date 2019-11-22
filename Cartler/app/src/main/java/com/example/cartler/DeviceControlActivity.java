@@ -25,6 +25,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.util.Log;
@@ -39,6 +40,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
 
+import static android.media.MediaPlayer.create;
+
 /**
  * For a given BLE device, this Activity provides the user interface to connect, display data,
  * and display GATT services and characteristics supported by the device.  The Activity
@@ -47,7 +50,6 @@ import java.util.UUID;
  */
 public class DeviceControlActivity extends Activity {
     private final static String TAG = DeviceControlActivity.class.getSimpleName();
-
     public static final String EXTRAS_DEVICE_NAME = "DEVICE_NAME";
     public static final String EXTRAS_DEVICE_ADDRESS = "DEVICE_ADDRESS";
     private int[] RGBFrame = {0,0,0};
@@ -136,6 +138,10 @@ public class DeviceControlActivity extends Activity {
         left = findViewById(R.id.left_btn);
         right = findViewById(R.id.right_btn);
         backward = findViewById(R.id.backward_btn);
+
+        final Intent service = new Intent(getApplicationContext(), ServiceClass.class);
+        service.setPackage("com.example.cartler");
+        stopService(service);
 
         forward.setOnClickListener(new Button.OnClickListener() {
             @Override

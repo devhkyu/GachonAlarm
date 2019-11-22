@@ -48,6 +48,13 @@
             </intent-filter>
         </receiver>
         <receiver android:name=".AlarmReceiver" />
+
+        <service android:name="ServiceClass">
+            <intent-filter>
+                <action android:name="com.example.cartler"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </service>
     </application>
 
 </manifest>
