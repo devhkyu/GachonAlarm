@@ -141,6 +141,8 @@ public class DeviceControlActivity extends Activity {
         final Intent service = new Intent(getApplicationContext(), ServiceClass.class);
         service.setPackage("com.example.cartler");
         stopService(service);
+        // Start Arduino Alarm
+        movementChange("a");
 
         forward.setOnClickListener(new Button.OnClickListener() {
             @Override
