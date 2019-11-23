@@ -141,8 +141,6 @@ public class DeviceControlActivity extends Activity {
         final Intent service = new Intent(getApplicationContext(), ServiceClass.class);
         service.setPackage("com.example.cartler");
         stopService(service);
-        // Start Arduino Alarm
-        movementChange("a");
 
         forward.setOnClickListener(new Button.OnClickListener() {
             @Override
@@ -173,6 +171,8 @@ public class DeviceControlActivity extends Activity {
         getActionBar().setDisplayHomeAsUpEnabled(true);
         Intent gattServiceIntent = new Intent(this, BluetoothLeService.class);
         bindService(gattServiceIntent, mServiceConnection, BIND_AUTO_CREATE);
+        // Start Arduino Alarm
+        movementChange("a");
     }
 
     @Override
@@ -289,6 +289,7 @@ public class DeviceControlActivity extends Activity {
             characteristicTX.setValue(tx);
             mBluetoothLeService.writeCharacteristic(characteristicTX);
             mBluetoothLeService.setCharacteristicNotification(characteristicRX,true);
+            displayData(s);
         }
     }
 }
