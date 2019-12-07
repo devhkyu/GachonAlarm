@@ -4,6 +4,10 @@ This is an alarm system built with Aduino and Android. When the bell and vibrati
 ## Arduino
 ![KakaoTalk_20191124_165321579_01](https://user-images.githubusercontent.com/44195740/70368083-03991780-18ea-11ea-98c2-337deffbd1ad.jpg)
 
+## Android
+![12333](https://user-images.githubusercontent.com/44195740/70368273-08f76180-18ec-11ea-895a-de8508ffe376.png)
+![3334444](https://user-images.githubusercontent.com/44195740/70368274-0ac12500-18ec-11ea-9000-846a5fd6c894.png)
+
 ## System Logic
 ![architecture](https://user-images.githubusercontent.com/44195740/70368126-8d48e500-18ea-11ea-8c5f-ad5f17e2ecef.png)
 
