@@ -13,13 +13,13 @@ This is an alarm system built with Aduino and Android. When the bell and vibrati
 
 ## Contributors
 <i><b>Hyungkyu Choi (201233660)</b><br>
-  Android Alarm and Control System<br><br>
+  Android Alarm and BLE Control System<br><br>
 <b>Jaeho Son (201533649)</b><br>
-  Bluetooth Connection Between Arduino and Android<br><br>
+  Implementation Arduino Code<br><br>
 <b>Siwon Lee (201636649)</b><br>
-  Arduino Car<br><br>
+  Component Testing<br><br>
   <b>Yookyung Kim (201833711)</b><br>
-  Arduino Car<br></i>
+  Making Arduino Car<br></i>
 
 ## License
 ```xml
