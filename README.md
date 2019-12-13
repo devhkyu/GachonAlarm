@@ -12,7 +12,7 @@ This is an alarm system built with Aduino and Android. When the bell and vibrati
 ![architecture](https://user-images.githubusercontent.com/44195740/70368126-8d48e500-18ea-11ea-8c5f-ad5f17e2ecef.png)
 
 ## Contributors
-<i><b>Hyungkyu Choi (201233660)</b><br>
+<i><b>Hyungkyu Choi (201233660, fab@kakao.com)</b><br>
   Android Alarm and BLE Control System<br><br>
 <b>Jaeho Son (201533649)</b><br>
   Implementation Arduino Code<br><br>
