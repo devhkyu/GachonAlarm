@@ -1,4 +1,10 @@
-# GachonAlarm
+ # GachonAlarm
+
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+![API](https://img.shields.io/badge/API-16%2B-green.svg)
+![Arduino](https://img.shields.io/badge/Arduino-1.8.10%2B-green.svg)
+![Kit](https://img.shields.io/badge/Kit-Uno%2B-green.svg)
+
 This is an alarm system built with Aduino and Android. When the bell and vibration start, the alarm stops when the Arduino car goes to the designated destination.
 
 ## Arduino
