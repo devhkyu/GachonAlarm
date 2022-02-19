@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 ![API](https://img.shields.io/badge/API-16%2B-green.svg)
-![Arduino](https://img.shields.io/badge/Arduino-1.8.10%2B-green.svg)
+![Kit](https://img.shields.io/badge/Arduino-1.8.10%2B-green.svg)
 ![Kit](https://img.shields.io/badge/Kit-Uno%2B-green.svg)
 ![Bluetooth](https://img.shields.io/badge/Bluetooth-4.0%2B-green.svg)
 
